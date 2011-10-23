@@ -55,8 +55,8 @@ Why use PyKvDal
 Ever started a project when you didn't know what datastore to use? SQL or NOSQL?
 PostgreSQL or Mongodb? The requirements were unclear, specially the non-functional
 requirements so you chose MySQL since its reasonable fast and supports transactions?
-PyKvDal makes you not worry about these things at the start of the project. There is
-only one file and it is designed to be replaced by a proper ORM or document store mapper
+PyKvDal makes you not worry about these things at the start of the project. PyKvDal exists
+of only one module and it is designed to be replaced by a proper ORM or document store mapper
 when the type of database has been decided. PyKvDal just lets you begin without worries
 while you know you can easily transfer to another solution or just connect PyKvDal to
 the correct database.
