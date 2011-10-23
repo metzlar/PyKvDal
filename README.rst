@@ -7,10 +7,11 @@ It supports memcached out of the box but other backends can be used without much
 Getting started
 ---------------
 
-To connect to ``memcached``::
+PyKvDal connects to ``memcached`` by default::
+
   pykvdal.dal_connect(['127.0.0.1:11211'])
 
-Or repurpose :meth:`dal_set`, :meth:`dal_get` and `dal_delete` to use other backends.
+Or repurpose ``dal_set()``, ``dal_get()`` and ``dal_delete()`` to use other backends.
 Any backend that can support key-value storing, retreiving and deletion is supported:
 MySQL, PostgreSQL, memcached, mongodb, redis, couchdb ... and many more.
 
@@ -68,5 +69,5 @@ TODO: Write proper manual. (For now check the source of pykvdal.py ;-)
 Feature list
 ------------
 
- - Popuplar backends implemented
- - Proper subclasses for validated fields e.b. StringField, IntField, etc.
+- Popuplar backends implemented
+- Proper subclasses for validated fields e.b. StringField, IntField, etc.
